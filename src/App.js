@@ -7,6 +7,7 @@ import Card2 from "./components/Card2";
 import Sbc from "./components/Sbc";
 import Psp from "./components/Psp";
 import Apsp from "./components/Apsp";
+import Swp from "./components/Swp";
 
 import "./styles.css";
 
@@ -20,6 +21,7 @@ function App() {
       <Sbc/>
       <Psp/>
       <Apsp/>
+      <Swp/>
       <Footer />
     </div>
   );
