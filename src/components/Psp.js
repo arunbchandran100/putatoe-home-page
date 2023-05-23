@@ -22,27 +22,27 @@ function ConstructionCard() {
         <h3>Construction</h3>
       </div>
       <Card className="construction-card" /*onClick={handleClick}*/>
-        <Card.Img variant="top" src={"https://royalbricks.co.in/wp-content/uploads/2022/03/Fly-Ash-Brick-1.jpg"} />
+        <Card.Img variant="top" src={"https://lh3.googleusercontent.com/pw/AJFCJaW6XNiCrNyyJAIZZ6YDWbM7pmfXWlrPBBSEhhXBSxQjWeakkB1OVVkTYjY_KtmRKZRPOA4xr_8Xo_brhFZiotLOltUzZTtzlL4xxkj6iFzECG_6GVVJmtVEdTdC00zOi11jW0tS25eQEIS1y5J3zw2F=w500-h500-s-no"} />
         <Card.Body>
           <Card.Title>Royal Bricks</Card.Title>
         </Card.Body>
       </Card>
       <Card className="construction-card" /*onClick={handleClick}*/>
-        <Card.Img variant="top" src={"https://5.imimg.com/data5/SELLER/Default/2021/5/JF/ZS/MG/126955422/acc-hpc-long-life-cement-1000x1000.jpg"} />
+        <Card.Img variant="top" src={"https://lh3.googleusercontent.com/pw/AJFCJaWROOA0TESoHVIYAMX2gnahoNvQV1pKuxQzBnw7JS78mqZskchPEZOuShHm_GSCvwYPbbswHN3YyO_FwEBA8i4drJX_SC_3ZkknkB9aCfagTYzEkoCVgimRvWfxbCGtgMt4JFeRbLQrRQdSWBts-qj-=w893-h893-s-no"} />
         <Card.Body>
           <Card.Title>ACC gold</Card.Title>
         </Card.Body>
       </Card>
       <Card className="construction-card" /*onClick={handleClick}*/>
-        <Card.Img variant="top" src={"https://www.jalaram-group.in/uploads/jalaram-cement-bricks-works/products/product-52.jpg?t=1670662231"} />
+        <Card.Img variant="top" src={"https://lh3.googleusercontent.com/pw/AJFCJaWvtrNtJMOPz77TG7M63Nm8YPVONUZtcwvebxdxnlCvw1j1aAxt2y5D8H4WeA0TaY9lPEOl4PoIvc-ZMGoAab9b6G2GK6Q_uiho1lyUHI5hxc-nnkA4TK9bLLyMVNgIWduFitK9AzctACNDLqUR5hoF=w1160-h893-s-no"} />
         <Card.Body>
-          <Card.Title>Royal Bricks</Card.Title>
+          <Card.Title>Cover Bricks</Card.Title>
         </Card.Body>
       </Card>
       <Card className="construction-card" /*onClick={handleClick}*/>
-        <Card.Img variant="top" src={"https://static.connect2india.com/c2icd/product_resources/images/iron-steel-rod.jpg"} />
+        <Card.Img variant="top" src={"https://lh3.googleusercontent.com/pw/AJFCJaVIyNMWBml2ppUeSK8oeY3Y3e-KlWUgF3XmsEutXEFDMhZLiNCnViT_C7nbV0LmAVES8ZMl4Fyo7CTvHUNRKEiIUpi6ifdjOucN-P3Mvgo_CfCfMFCOr9fgkmRPUWvqyELkuwdoqMBqYYCXrKSDBNsX=w500-h500-s-no"} />
         <Card.Body>
-          <Card.Title>ACC gold</Card.Title>
+          <Card.Title>Iron Rod</Card.Title>
         </Card.Body>
       </Card>
     </div>
