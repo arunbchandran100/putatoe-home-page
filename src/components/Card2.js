@@ -1,48 +1,34 @@
-
-
-import React, { useRef } from "react";
+import React from "react";
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import {  FiTv, FiDollarSign, FiSmartphone, FiBook, FiBriefcase, FiArrowRightCircle,FiMail, FiSun, FiDroplet, FiPlusCircle, FiBarChart2, FiServer } from 'react-icons/fi';
+import { GiLightningTrio, GiWaterBottle } from 'react-icons/gi';
 import "./Card2.css";
 
-function Card2() {
-  const icons = [
-    "fa-mobile",
-    "fa-satellite",
-    "fa-university",
-    "fa-bullhorn",
-    "fa-newspaper",
-    "fa-book",
-    "fa-briefcase",
-    "fa-comments",
-    "fa-gas-pump",
-    "fa-lightbulb",
-    "fa-tint",
-    "fa-ellipsis-h"
-  ];
-
-  const buttons = [
-    "Prepaid Mobile Recharge",
-    "DTH Recharge",
-    "Loans",
-    "Promotions",
-    "News",
-    "Blog",
-    "Jobs",
-    "Feedback",
-    "Gas",
-    "Electricity",
-    "Water Bill",
-    "See More"
-  ];
+function CardGrid() {
+  const cards = [
+    { icon: <FiSmartphone />, title: "Prepaid Mobile Recharge" },
+    { icon: <FiTv />, title: "DTH Recharge" },
+    { icon: <FiDollarSign />, title: "Loans" },
+    { icon: <FiSmartphone />, title: "Promotions" },
+    { icon: <FiBook />, title: "News" },
+    { icon: <FiBriefcase />, title: "Jobs" },
+    { icon: <FiMail />, title: "Feedback" },
+    { icon: <FiBarChart2 />, title: "Gas Bill" },
+    { icon: <FiServer />, title: "Electricity Bill" },
+    { icon: <FiDroplet />, title: "Water Bill" },
+    { icon: <GiWaterBottle />, title: "Blog" },  
+    { icon: <FiArrowRightCircle />, title: "See more" },
+];
 
   return (
-    <div className="card-container">
-      {icons.map((icon, index) => (
-        <Card key={index} style={{ width: '18rem' }}>
-          <Card.Img variant="top" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Android_robot.svg/1200px-Android_robot.svg.png" />
+    <div className="card-grid">
+      {cards.map((card, index) => (
+        <Card key={index}>
           <Card.Body>
-            <Button variant="primary">{buttons[index]}</Button>
+            <Card.Title>{card.icon}</Card.Title>
+            <Card.Text>{card.title}</Card.Text>
+            <Button variant="primary" className="recharge-button">{"Click here"}</Button>
           </Card.Body>
         </Card>
       ))}
@@ -50,4 +36,4 @@ function Card2() {
   );
 }
 
-export default Card2;
+export default CardGrid;

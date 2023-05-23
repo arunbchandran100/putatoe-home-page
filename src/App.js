@@ -11,9 +11,13 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <Card1 /> 
-      <Card2 /> 
       <HomePage />
+      <Card1 /> 
+      <>
+      <Card2 /> 
+      </>
+      <h1 Shop By Category/>
+      
       <Footer />
     </div>
   );

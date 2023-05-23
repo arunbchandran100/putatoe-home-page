@@ -1,63 +1,56 @@
+.card-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  background-color: #47c3d3;
+}
+
 .card {
-    width: 18rem;
-    margin: 0 auto;
-    padding: 1rem;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    display: flex;
-    flex-direction: row;
-  }
-  
-  .card-img-top {
-    max-width: 100%;
-  }
-  
-  .card-title {
-    font-size: 1.25rem;
-    font-weight: bold;
-    margin-bottom: 0.5rem;
-  }
-  
-  .card-text {
-    font-size: 1rem;
-    margin-bottom: 1rem;
-  }
-  
-  .btn-primary {
-    background-color: #007bff;
-    border-color: #007bff;
-  }
-  
-  .btn-primary:hover {
-    background-color: #0069d9;
-    border-color: #0062cc;
-  }
-  
-  .btn-primary:focus,
-  .btn-primary.focus {
-    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
-  }
-  
-  .btn-primary.disabled,
-  .btn-primary:disabled {
-    background-color: #007bff;
-    border-color: #007bff;
-  }
-  
-  .btn-primary:not(:disabled):not(.disabled).active,
-  .btn-primary:not(:disabled):not(.disabled):active,
-  .show > .btn-primary.dropdown-toggle {
-    background-color: #0062cc;
-    border-color: #005cbf;
-  }
-  
-  .btn-primary:not(:disabled):not(.disabled).active:focus,
-  .btn-primary:not(:disabled):not(.disabled):active:focus,
-  .show > .btn-primary.dropdown-toggle:focus {
-    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
-  }
-  
-  .card-body {
-    justify-content: flex-end;
-  }
-  
+  width: 18rem;
+  margin: 10px;
+  background-color: #deecee;
+  border: 1px solid #100e0e;
+  border-radius: 5px;
+}
+
+.card-body {
+  padding: 10px;
+}
+
+.card-title {
+  font-size: 2.7rem;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 2rem;
+}
+
+.recharge-button {
+  bottom: 0rem;
+  left: 1rem;
+  background-color: #007bff;
+  color: #eaeaea;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 2rem;
+  transition: background-color 0.3s ease;
+}
+
+.recharge-button:hover {
+  background-color: #0069d9;
+}
+
+.recharge-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+}
+
+.recharge-button:disabled,
+.recharge-button:disabled:hover {
+  background-color: #007bff;
+  cursor: not-allowed;
+  opacity: 0.65;
+}

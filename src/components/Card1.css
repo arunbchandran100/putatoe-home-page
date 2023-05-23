@@ -1,9 +1,12 @@
 .card-container {
   display: flex;
+  height:23.4rem;
   margin: 0;
-  margin-bottom: 1rem;
+  border-radius: 2rem;
+  margin-bottom: 4rem;
   background-color: rgb(172, 210, 231);
-  border-radius: 0.25rem;
+  border-radius: 0rem;
+  height: 23.4rem;
 }
 
 .card {
@@ -11,11 +14,12 @@
   margin-bottom: 1rem;
   margin: none;
   border: none;
-  border-radius: 0.25rem;
+  border-radius: none;
 }
 
 .card-img-top {
-  max-width: 110%;
+  max-width: 100%;
+  border-radius: none;
 }
 
 
