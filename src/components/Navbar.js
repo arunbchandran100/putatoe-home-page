@@ -1,7 +1,6 @@
 import React, { useRef } from "react";
 import "./Navbar.css";
-import { FaShoppingCart } from "react-icons/fa";
-
+import { FaShoppingCart, FaBars } from "react-icons/fa";
 
 const Navbar = () => {
   const searchRef = useRef(null);
@@ -18,7 +17,7 @@ const Navbar = () => {
     <nav>
       <input type="checkbox" id="check" />
       <label htmlFor="check" className="checkbtn">
-        <i className="fas fa-bars"></i>
+        <FaBars />
       </label>
       <label className="logo">Putatoe</label>
       <ul>

@@ -33,7 +33,7 @@
   
   .search-box button {
 	padding: 8px 12px;
-	background-color: #a0c8e7;
+	background-color: #105169;
 	color: white;
 	border: none;
 	border-radius: 3px;
@@ -143,15 +143,22 @@
 	background: #1b9bff;
 	transition: .5s;
   }
-  .checkbtn{
-	font-size: 30px;
-	color: white;
-	float: right;
-	line-height: 80px;
-	margin-right: 40px;
+  .checkbtn {
+	position: absolute;
+	top: 0;
+	left: 25px;
+	display: block; /* Change 'none' to 'block' */
+	width: 40px;
+	height: 40px;
 	cursor: pointer;
-	display: none;
   }
+  
+  .checkbtn i {
+	color: #fff;
+	font-size: 24px;
+  }
+  
+  
   #check{
 	display: none;
   }
