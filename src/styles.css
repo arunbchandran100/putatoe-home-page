@@ -1,0 +1,22 @@
+/* Navbar.css */
+
+.navbar {
+    background-color: rgb(59, 225, 222);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .navbar-left {
+    display: flex;
+  }
+  
+  .navbar-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .cart-button {
+    margin-left: 10px;
+  }
+  
