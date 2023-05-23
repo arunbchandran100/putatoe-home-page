@@ -3,8 +3,8 @@
   height:23.4rem;
   margin: 0;
   border-radius: 2rem;
-  margin-bottom: 4rem;
-  background-color: rgb(172, 210, 231);
+  margin-bottom: 3rem;
+  background-color: #fdfdfd;
   border-radius: 0rem;
   height: 23.4rem;
 }
@@ -36,7 +36,7 @@
 }
 
 .recharge-button:hover {
-  background-color: #0069d9;
+  background-color: #28b7b0;
 }
 
 .recharge-button:focus {
@@ -46,7 +46,7 @@
 
 .recharge-button:disabled,
 .recharge-button:disabled:hover {
-  background-color: #007bff;
+  background-color: #28b7b0;
   cursor: not-allowed;
   opacity: 0.65;
 }

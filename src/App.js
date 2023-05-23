@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Card1 from "./components/Card1";
 import Card2 from "./components/Card2";
+import Sbc from "./components/Sbc";
 
 import "./styles.css";
 
@@ -13,10 +14,8 @@ function App() {
       <Navbar />
       <HomePage />
       <Card1 /> 
-      <>
       <Card2 /> 
-      </>
-      <h1 Shop By Category/>
+      <Sbc/>
       
       <Footer />
     </div>
