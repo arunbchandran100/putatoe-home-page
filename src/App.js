@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import Card1 from "./components/Card1";
 import Card2 from "./components/Card2";
 import Sbc from "./components/Sbc";
+import Psp from "./components/Psp";
 
 import "./styles.css";
 
@@ -16,7 +17,7 @@ function App() {
       <Card1 /> 
       <Card2 /> 
       <Sbc/>
-      
+      <Psp/>
       <Footer />
     </div>
   );
