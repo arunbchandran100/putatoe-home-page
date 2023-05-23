@@ -1,46 +1,48 @@
-/* Card1.css */
+.card-container {
+  display: flex;
+  margin: 0;
+  margin-bottom: 1rem;
+  background-color: rgb(172, 210, 231);
+  border-radius: 0.25rem;
+}
 
-.carousel-item {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    height: 100vh; /* Adjust the height as needed */
-    border: none;
-    outline: none;
-  }
-  
-  .carousel-item img {
-    max-width: 100%;
-    max-height: 100%;
-    border: none;
-    outline: none;
-  }
-  
-  .carousel-inner {
-    display: flex;
-    flex-wrap: nowrap;
-    border: none;
-    outline: none;
-  }
-  
-  .carousel-control-prev,
-  .carousel-control-next {
-    width: 5%;
-  }
-  
-  .carousel-control-prev-icon,
-  .carousel-control-next-icon {
-    width: 100%;
-    height: 100%;
-    background-size: contain;
-    background-repeat: no-repeat;
-  }
-  
-  .carousel-control-prev {
-    margin-left: 0%;
-  }
-  
-  .carousel-control-next {
-    margin-right: 0%;
-  }
-  
+.card {
+  width: 18rem;
+  margin-bottom: 1rem;
+  margin: none;
+  border: none;
+  border-radius: 0.25rem;
+}
+
+.card-img-top {
+  max-width: 110%;
+}
+
+
+.recharge-button {
+  bottom: 0rem;
+  left: 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  transition: background-color 0.3s ease;
+}
+
+.recharge-button:hover {
+  background-color: #0069d9;
+}
+
+.recharge-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+}
+
+.recharge-button:disabled,
+.recharge-button:disabled:hover {
+  background-color: #007bff;
+  cursor: not-allowed;
+  opacity: 0.65;
+}
