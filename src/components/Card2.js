@@ -8,7 +8,7 @@ import "./Card2.css";
 function CardGrid() {
   const cards = [
     { icon: <FiSmartphone />, title: "Prepaid Mobile Recharge" },
-    { icon: <FiTv />, title: "DTH Recharge" },
+    { icon: <FiTv />, title: " DTH Recharge" },
     { icon: <FiDollarSign />, title: "Loans" },
     { icon: <FiSmartphone />, title: "Promotions" },
     { icon: <FiBook />, title: "News" },
