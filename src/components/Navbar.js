@@ -2,6 +2,7 @@ import React, { useRef } from "react";
 import "./Navbar.css";
 import { FaShoppingCart } from "react-icons/fa";
 
+
 const Navbar = () => {
   const searchRef = useRef(null);
 

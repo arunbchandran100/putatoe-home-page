@@ -1,0 +1,46 @@
+/* Card1.css */
+
+.carousel-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100vh; /* Adjust the height as needed */
+    border: none;
+    outline: none;
+  }
+  
+  .carousel-item img {
+    max-width: 100%;
+    max-height: 100%;
+    border: none;
+    outline: none;
+  }
+  
+  .carousel-inner {
+    display: flex;
+    flex-wrap: nowrap;
+    border: none;
+    outline: none;
+  }
+  
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 5%;
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  
+  .carousel-control-prev {
+    margin-left: 0%;
+  }
+  
+  .carousel-control-next {
+    margin-right: 0%;
+  }
+  
