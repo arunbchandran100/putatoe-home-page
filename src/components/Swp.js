@@ -22,7 +22,7 @@ function ConstructionCard() {
         <Card.Img
           variant="top"
           src={
-            "https://lh3.googleusercontent.com/pw/AJFCJaU1jbqkpuh_b_hiN10rc32_gTgNt-3ah1SJyuHYAuphTkOF24ddoaGk5sW8qaqaMXpb1y6gVoIe5BELPtPlB_5JvnH7zrMFuFqazbF-vBikAmdJyLogNaLmWwxRVlTGwpHJQ2Yasah-M9iusIvlZL1n=w835-h893-s-no"
+            "https://thumbs.dreamstime.com/z/happy-young-woman-walking-supermarket-shopping-cart-full-groceries-girl-buying-food-grocery-store-cartoon-flat-vector-119182782.jpg"
           }
         />
         <Card.Body>
@@ -30,7 +30,7 @@ function ConstructionCard() {
         </Card.Body>
       </Card>
       <Card className="construction-card" /*onClick={handleClick}*/>
-        <Card.Img variant="top" src={"https://lh3.googleusercontent.com/pw/AJFCJaUzAbn3Z5UHYFLqnpncORpTjWCO6r0wmvBvpKsTpIVaHUaD9XLZVp3UD2k8qmYkU3EMKvBXa7-L4EykaZNqu_sTZRgY5JXkRLj3KQY5XhmQ9FWfIi5PWDuTHXp0OF7XrkFYc_B7YT-j1dsUNdeOvw4e=w845-h893-s-no"} />
+        <Card.Img variant="top" src={"https://thumbs.dreamstime.com/z/building-construction-industry-cartoon-background-workers-construction-workers-vector-illustration-construction-builder-139598398.jpg"} />
         <Card.Body>
           <Card.Title>Construction</Card.Title>
         </Card.Body>
@@ -39,7 +39,7 @@ function ConstructionCard() {
         <Card.Img
           variant="top"
           src={
-            "https://lh3.googleusercontent.com/pw/AJFCJaVmiP7Vu4nqkysjRY6PD73scZVugvIxlTTvoBOJjwHPbSGshsmtiRpMJXxE80O1EE7ZdLMtCMY6PVQh7TkZp7JWMG7MAtC3h02fI4S0qOiASK1swazNk4GNgYXn-NN0mUfUWnbVrgyFrLrJ3F8Y_Raq=w400-h300-s-no"
+            "https://cdn.dribbble.com/users/783963/screenshots/5210455/full_build_2_still_2x.gif?compress=1&resize=400x300"
           }
         />
         <Card.Body>
